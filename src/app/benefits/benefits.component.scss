@@ -1,0 +1,58 @@
+.BenefitBody {
+  background-color: #ECECEC;
+  min-height: 100%;
+
+  .themeChange{
+    color: blue;
+    cursor: pointer;
+  }
+  .outerCard {
+    margin: 15px 0;
+
+    .cards {
+      background-color: #ffffff;
+      border: 1px solid #bfbfbf;
+      min-height: 300px;
+      cursor: move;
+
+      h4 {
+        font-size: 16px;
+        margin: 0;
+        color: #ffffff;
+        background-color: #D00E26;
+        padding: 0.5rem;
+
+        .read{
+          font-size: 10px;
+          float: right;
+          cursor: pointer;
+          margin-top: 3px;
+        }
+      }
+
+      .content {
+        padding: 0.5rem;
+        font-weight: 200;
+        color: #d8d7d7;
+        transition: color 2s;
+
+        &:hover {
+          color: #000000;
+        }
+      }
+    }
+  }
+}
+.darkTheme {
+  background-color: #000000 !important;
+
+  .outerCard {
+    .cards {
+      background-color: #525252 !important;
+    }
+
+    .content {
+      color: #ffffff !important;
+    }
+  }
+}

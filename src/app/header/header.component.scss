@@ -1,0 +1,31 @@
+.headerRow{
+  background-color: #000000;
+  padding: 18px 20px 0;
+
+  .nav-item{
+    padding-bottom: 18px;
+  }
+  .nav-link{
+    padding: 0 1rem;
+    color: #ffffff;
+  }
+  .active{
+    border-bottom: 3px solid red;
+  }
+  .headerNav{
+    float: right;
+  }
+}
+@media screen and (max-width: 576px){
+  .headerRow{
+    .logo{
+      text-align: center;
+    }
+    .headerNav{
+      float: none;
+      width: 270px;
+      margin: auto;
+      margin-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+<div class="container-fluid headerRow">
+  <div class="row">
+    <div class="col-sm-12 col-md-6">
+      <p class="logo"><img src="../../assets/images/logo_white.png"></p>
+    </div>
+    <div class="col-sm-12 col-md-6">
+      <ul class="nav headerNav">
+        <li class="nav-item" [ngClass]="{'active':currentUrl === 'benefits'}">
+          <a class="nav-link" href="/benefits">Benefits</a>
+        </li>
+        <li class="nav-item" [ngClass]="{'active':currentUrl === 'safety'}">
+          <a class="nav-link" href="/safety">Safety</a>
+        </li>
+        <li class="nav-item" [ngClass]="{'active':currentUrl === 'policies'}">
+          <a class="nav-link" href="/policies">Policies</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
