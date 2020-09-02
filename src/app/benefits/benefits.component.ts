@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {CdkDragDrop, moveItemInArray} from '@angular/cdk/drag-drop';
+import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
 import { FilterPipe } from 'ngx-filter-pipe';
 
 import { BenefitsService } from '../common/services/benefits.service';
@@ -31,7 +31,7 @@ export class BenefitsComponent implements OnInit {
     moveItemInArray(this.benefit.benefit, event.previousIndex, event.currentIndex);
   }
   markRead(index) {
-    this.benefit.benefit.splice(index,1);
+    this.benefit.benefit.splice(index, 1 );
   }
 
 }

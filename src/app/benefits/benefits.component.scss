@@ -7,12 +7,13 @@
     cursor: pointer;
   }
   .outerCard {
+    display: flex;
     margin: 15px 0;
 
     .cards {
+      flex: 1;
       background-color: #ffffff;
       border: 1px solid #bfbfbf;
-      min-height: 300px;
       cursor: move;
 
       h4 {
